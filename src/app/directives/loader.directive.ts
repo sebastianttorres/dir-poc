@@ -12,16 +12,16 @@ export class LoaderDirective implements AfterContentInit {
 
   @Input('appLoader') set appLoader(value: string) {
     if (value === 'loading') {
-      this.display = 'none';
       this.createComponent();
+      this.display = 'none';
     }
     if (value === 'visible') {
-      this.display = '';
       this.ref.clear();
+      this.display = '';
     }
     if (value === 'invisible') {
-      this.display = 'none';
       this.ref.clear();
+      this.display = 'none';
     }
   }
 
@@ -30,7 +30,7 @@ export class LoaderDirective implements AfterContentInit {
   }
 
   ngAfterContentInit() {
-    this.display = 'none';
     this.createComponent();
+    this.display = 'none';
   }
 }
