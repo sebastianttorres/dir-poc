@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Directive POC';
+  value = '';
+  loader: string;
+
+  setValue() {
+    this.loader = this.value;
+  }
 }
