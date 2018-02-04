@@ -1,5 +1,7 @@
 # DirPoc
 
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://github.com/sebastianttorres/dir-poc/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
 ## Development server
