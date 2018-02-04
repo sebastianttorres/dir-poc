@@ -1,6 +1,6 @@
 # DirPoc
 
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://github.com/sebastianttorres/dir-poc/)
+[![Swagger Validator](https://img.shields.io/swagger/valid/2.0/https/raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v2.0/json/petstore-expanded.json.svg)](https://github.com/sebastianttorres/dir-poc/blob/master/package-lock.json)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
